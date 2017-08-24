@@ -1,0 +1,15 @@
+= camel-servicenow-meta
+
+* Run
++
+[source,shell]
+----
+$ ./mvnw clean spring-boot:run
+----
+
+* Test it
++
+[source,shell]
+----
+$ http -b localhost:8080/table/incident?fields=sys_id,resolved_at
+----
